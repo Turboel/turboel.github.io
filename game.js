@@ -26,6 +26,9 @@ function showPage(){
 		// Oculta o botão de passar a página normalmente
 		document.getElementById("nextPageButton").style.visibility = 'hidden';
 
+		// É aberta a página da escolha selecionada pelo usuário
+		document.getElementById("storyPage").src = 'resources/img/page' + pageNumber +'.jpg';
+
 		switch (pageNumber) {
 			case 9:
 				document.getElementById("optionA").innerText = "loja do Urso";
@@ -64,21 +67,18 @@ function showPage(){
 			document.getElementById("optionC").style.visibility = 'visible';
 			document.getElementById("optionD").style.visibility = 'visible';
 		}
-
-		// É aberta a página da escolha selecionada pelo usuário
-		document.getElementById("storyPage").src = 'resources/img/page' + pageNumber +'.jpg';
 	}
 
 	else if(pageNumber == 10 || pageNumber == 13 || pageNumber == 17 || pageNumber == 20){ 
 		
+		document.getElementById("storyPage").src = 'resources/img/page' + pageNumber + optionSelected +'.jpg';
+
 		// Oculta o botão de passar a página normalmente
 		document.getElementById("nextPageButton").style.visibility = 'visible';
 
 		// Aparecem dois dos botões de escolha
 		document.getElementById("optionA").style.visibility = 'hidden';
 		document.getElementById("optionB").style.visibility = 'hidden';
-
-		document.getElementById("storyPage").src = 'resources/img/page' + pageNumber + optionSelected +'.jpg';
 	}
 	else if(pageNumber == 28){
 		document.getElementById("storyPage").src = 'resources/img/page' + pageNumber + optionSelected +'.jpg';
@@ -103,11 +103,11 @@ function showPage(){
 		document.getElementById('optionC').style.visibility = 'hidden';
 		document.getElementById('optionD').style.visibility = 'hidden';
 
+		document.getElementById('storyPage').src = 'resources/img/page' + pageNumber + '.jpg';
+
 		if(pageNumber == 10 || pageNumber == 13 || pageNumber == 17 || pageNumber == 20 || pageNumber == 23){
 			document.getElementById('nextPageButton').style.visibility = 'visible';
 		}
-
-		document.getElementById('storyPage').src = 'resources/img/page' + pageNumber + '.jpg';
 	}
 
 	// Calcula o resultado se o usuário tiver passado pela última escolha
