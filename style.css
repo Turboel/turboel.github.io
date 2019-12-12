@@ -1,0 +1,433 @@
+/* ----------------------------- FONTS ------------------------------ */
+
+.fontNexaBoldRegular {
+	font-family: 'nexaBoldRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* --------------------------- VARIABLES --------------------------- */
+
+:root {
+    --fox-orange: #FF852B;
+}
+
+/* ---------------------------- GENERAL ---------------------------- */
+
+body{
+	margin: 0vw 0vw 0vw 0vw;
+	background-color: #5E5E5E;
+}
+
+.orange{
+	background-color: var(--fox-orange);
+	
+}
+
+.centered{
+	text-align: center;
+}
+
+
+.header{
+	margin: 0vw 0vw 0vw 0vw !important;
+	padding: 0vw 0vw 0vw 0vw !important;
+	border: 0vw 0vw 0vw 0vw !important;
+}
+
+.headerFont{
+	font-size: 30px;
+	font-family: 'nexaBoldRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+
+.button {
+  background-color: brown;
+  border: none;
+  color: white;
+  padding: 1vw 12vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+th{
+	width: 33%;
+	padding: 0vw 0vw 0vw 0vw;
+}
+
+
+.bottomLogo{
+	padding: 0px 0px 0px 0px;
+	margin: 30px 0px 30px 0px;
+}
+
+tr{
+	width: 25%;
+}
+
+.noScrollPage{
+	width: 100vw;
+	height: 100vh;
+}
+
+/* ------------------------------------------------------------------ */
+
+
+
+#footer{
+	height: 20vh;
+	padding: 5vh 0 2vh 0 !important;
+}
+
+.footerDescription{
+	height: 2vh;
+}
+
+.footerDescription p{
+	font-size: 1em;
+}
+
+.credits{
+	font-size: 0.9em;
+}
+
+
+/* OVERWRITES ANOTHER CODE */
+/* FOOTER */
+
+.shortFooter{
+	height: 10.5vh;
+	width: 100vw;
+
+	padding: 0 !important;
+	margin: 0 !important;
+
+	position: fixed;
+	top: 89.5vh;
+}
+
+.shortFooter p{
+	padding: 2vh 0 0 0;
+	margin: 0vh 0 3vh 0;
+}
+
+.shortfooterDescription{
+	height: 1vh;
+}
+
+
+.shortFooterUnfixed{
+	height: 10.5vh;
+	width: 100vw;
+
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+
+	position: absolute;
+
+	top: 160vh;
+}
+.shortFooterUnfixed p{
+	padding: 2vh 0 0 0;
+	margin: 0vh 0 3vh 0;
+}
+
+/* ----------------------------- HOME PAGE -------------------------- */
+
+
+
+/* ------------------------------------------------------------------ */
+
+/* --------------------------- STORY PAGE --------------------------- */
+
+#storyPage{
+	position: absolute;
+	transform: translate(-40vw, 1vh);
+
+	width: 80vw;
+	height: 45vw;
+	
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#nextPageButton{
+	position: absolute;
+	top: 43vh;
+	left: 91vw;
+
+	width: 12vh;
+	height: 12vh;
+
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+
+	font-size: 4vw;
+
+	visibility: visible;
+}
+
+.choiceButton{
+	width: 9vw;
+	height: 14vh;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+	background-color: darkblue;
+}
+
+
+#optionA, #optionB, #optionC, #optionD {
+	visibility: hidden;
+}
+
+#optionA {
+	position: absolute;
+	top: 10vh;
+	left: 0.5vw;
+
+	background-color: crimson;
+}
+
+#optionB {
+	position: absolute;
+	top: 28vh;
+	left: 0.5vw;
+
+	background-color: royalblue;
+}
+
+#optionC {
+	position: absolute;
+	top: 46vh;
+	left: 0.5vw;
+
+	background-color: khaki;
+}
+
+#optionD {
+	position: absolute;
+	top: 64vh;
+	left: 0.5vw;
+
+	background-color: limegreen;
+}
+
+
+/* ------------------------------------------------------------------ */
+
+/* --------------------------- SEARCH PAGE -------------------------- */
+
+#search{
+	margin-bottom: 3vw;
+	margin-top: 3vw;
+}
+
+#searchBar{
+	width: 15vw;
+	height: 5vh;
+
+	padding: 0 1vh;
+	margin: 0;
+	border: 0;
+	border-radius: 1vh;
+}
+
+#searchButton{
+	padding: 1vw 1.1vw;
+	margin: 0;
+	border: 0;
+	border-radius: 50%;
+
+	font-size: 1em;
+}
+
+#searchButton:hover{
+	cursor: pointer;
+}
+
+.searchPost{
+	display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    background: #ccc;
+    margin: 5px;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* -------------------------- CREATOR PAGE -------------------------- */
+
+#userPhoto img{
+	margin-right: 1vw;
+	margin-left: 25vw;
+}
+
+#userPhoto *{
+	display: inline-block;
+	text-align: center;
+}
+
+#userDescription{
+	position: relative;
+	bottom: 6vw;
+}
+
+#userDescription p{
+	width: 30vw;
+	height: 10vw;
+	margin: 0px 0px 0px 0px;
+}
+#userHeader * {
+	display: inline-block;
+}
+
+#userHeader{
+	height: 16vw;
+	margin-bottom: 1vw;
+	margin-top: 2vw;
+}
+
+hr.transparent {
+    width: 70%;
+    background: #000;
+    opacity: 0.5;
+}
+
+.userPost{
+	display: inline-block;
+	width: 20vw;
+    height: 20vw;
+    background: #ccc;
+    margin: 10px;
+}
+
+.userFeed{
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* --------------------------- ABOUT PAGE --------------------------- */
+
+/*	Tentamos usar display: inline-block e position: static e espaçar elas com
+	um algoritmo, mas isso bugava quando colocávamos texto dentro das divs com
+	a classe "creatorColumn", então fomos com position: fixed mesmo.			*/
+
+#creatorsRow{
+	position: fixed;
+	top: 10vh;
+}
+
+.creatorColumn{
+	background-color: #D5DBDB;
+	
+	/*
+	display: inline-block;
+	margin: 2.5vh 2.5vw 2.5vh 2.5vw !important;
+	padding: 0 !important;
+	border: 0 !important; 
+	*/
+
+	width: 20vw;
+	height: 75vh;
+
+	text-align: center;
+
+	position: fixed;
+	bottom: 10.25vh;
+
+	border-radius: 6vh;
+}
+
+.creatorColumn h1 p{
+	display: inline;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
+
+#creatorColumn1{
+	left: 2.5vw;
+}
+
+#creatorColumn2{
+	left: 27.5vw;
+}
+
+#creatorColumn3{
+	left: 52.5vw;
+}
+
+#creatorColumn4{
+	left: 77.5vw;
+}
+
+.linkButton {
+	background-color: #2E4053;
+
+	border: none;
+	color: white;
+
+	display: inline-block;
+	padding: 3vh 5vw;
+	margin: 4px 2px;
+
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	 
+	cursor: pointer;
+}
+
+.linkButton:hover {
+	background-color: #884EA0;
+
+}
+
+
+/*	CORES DOS BOTÕES DE CADA ARTISTA	*/
+
+/*		JOÃO EMANUEL		*/
+#colorJ1:hover{	
+	background-color: #9B59B6; /* 6,3 */
+}
+#colorJ2:hover{
+	background-color: #7D3C98; /* 7,4 */
+}
+
+/*		LUCAS MACEDO		*/
+#colorL1:hover{
+	background-color: #1ABC9C; /* 6,7 */
+}
+#colorL2:hover{
+	background-color: #138D75; /* 7,8 */
+}
+
+/*		MARIA ALICE			*/
+#colorM1:hover{
+	background-color: #2ECC71; /* 6,10 */
+}
+#colorM2:hover{
+	background-color: #229954; /* 7,9 */
+}
+
+/*		VITÓRIA QUEIROZ		*/
+#colorV1:hover{
+	background-color: #F39C12; /* 6,12 */
+}
+#colorV2:hover{
+	background-color: #CA6F1E; /* 7,13 */
+}
+
+/* ------------------------------------------------------------------ */
