@@ -344,9 +344,7 @@ hr.transparent {
 	top: 10vh;
 }
 
-.creatorColumn{
-	background-color: #D5DBDB;
-	
+.creatorColumn{	
 	/*
 	display: inline-block;
 	margin: 2.5vh 2.5vw 2.5vh 2.5vw !important;
@@ -355,12 +353,12 @@ hr.transparent {
 	*/
 
 	width: 20vw;
-	height: 75vh;
+	height: 70vh;
 
 	text-align: center;
 
 	position: fixed;
-	bottom: 10.25vh;
+	bottom: 15.25vh;
 
 	border-radius: 6vh;
 }
@@ -375,18 +373,26 @@ hr.transparent {
 
 #creatorColumn1{
 	left: 2.5vw;
+
+	background-color: #F1C40F;
 }
 
 #creatorColumn2{
 	left: 27.5vw;
+
+	background-color: #2ECC71;
 }
 
 #creatorColumn3{
 	left: 52.5vw;
+
+	background-color: #E74C3C;
 }
 
 #creatorColumn4{
 	left: 77.5vw;
+
+	background-color: #3498DB;
 }
 
 .linkButton {
@@ -398,6 +404,8 @@ hr.transparent {
 	display: inline-block;
 	padding: 3vh 5vw;
 	margin: 4px 2px;
+
+	border-radius: 2vh;
 
 	font-size: 16px;
 	text-align: center;
@@ -424,10 +432,10 @@ hr.transparent {
 
 /*		LUCAS MACEDO		*/
 #colorL1:hover{
-	background-color: #1ABC9C; /* 6,7 */
+	background-color: #3498DB; /* 6,7 */
 }
 #colorL2:hover{
-	background-color: #138D75; /* 7,8 */
+	background-color: #2471A3; /* 7,8 */
 }
 
 /*		MARIA ALICE			*/
