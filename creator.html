@@ -4,10 +4,12 @@
 	
 	<head>
 		<meta charset="utf-8">
-		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">  Responsividade (1vw = 1% largura tela)-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade (1vw = 1% largura tela)-->
 		<title>PortFOXio</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="resources/fonts/Nexa/stylesheet.css">
+
+		<script src="https://kit.fontawesome.com/60df8157e6.js" crossorigin="anonymous"></script>
 
 		<link rel="apple-touch-icon" sizes="57x57" href="resources/icons/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="resources/icons/apple-icon-60x60.png">
@@ -39,34 +41,31 @@
 				</tr>
 			</table>
 		</div>
-		
-		<!--
-		<div class="centered" id="searchBar">
+
+		<!-- BARRA DE PESQUISA -->
+		<div class="centered" id="search">
 			<form action="search.html">
-				<label for="search">Pesquisar:<label>
-				<input type="text" id="search" name="searchString">
-				<input type="submit">
+				<label class="fontNexaBoldRegular" for="search">Pesquisar:</label>
+				<input type="text" id="searchBar" name="searchString">
+				<button type="submit" id="searchButton" class="fontNexaBoldRegular"><i class="fas fa-search"></i></button> 
 			</form>
 		</div>
-		
-		<hr>
-		-->
-		
+
 		<div id="userHeader">
 			<div id="userPhoto">
-				<img src="resources/img/userPhoto.png" alt="user image" width="200vw" height="200vh">
+				<img src="resources/img/userPhoto.png" alt="User Photo" width="200vw" height="200vh">
 			</div>
 			<div id="userDescription">
-				<h2>Nome do criador</h2>
+				<h2 class="fontNexaBoldRegular">Nome do criador</h2>
 				</br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium nibh ut ante rhoncus pulvinar at vitae nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium nibh ut ante rhoncus pulvinar at vitae nisl.</p>
+				<p class="fontNexaBoldRegular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium nibh ut ante rhoncus pulvinar at vitae nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium nibh ut ante rhoncus pulvinar at vitae nisl.</p>
 			</div>
 		</div>
 		
 		
 		<hr class="transparent">
 		
-		
+		<!-- não tivemos tempo para fazer um banco de dados -->
 		<div>
 			<div class="centered userFeed">
 				<div class="userPost"></div>
@@ -78,7 +77,14 @@
 				<div class="userPost"></div>
 			</div>
 		</div>
-		
+
+		<footer class="orange shortFooterStatic">
+			<p class="centered fontNexaBoldRegular shortfooterDescription">Site programado por Lucas Macedo e projetado por João Emanuel, Lucas Macedo, Maria Alice e Vitória Queiroz</p>
+
+			<div class="centered fontNexaBoldRegular shortfooterDescription credits">
+				Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+			</div>
+		</footer>		
 		
 	</body>
 </html>

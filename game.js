@@ -85,13 +85,20 @@ function showPage(){
 	}
 
 	// Tela do resultado
-	else if(pageNumber == 30){
+	else if(pageNumber >= 30){
 		switch (optionSelected) {
-			case a:
-				window.location.href = "creator.html/joao";
-				
+			case 'a':
+				window.location.href = "creator_j.html";				
 				break;
-			default:
+			case 'b':
+				window.location.href = "creator_m.html";				
+				break;
+			case 'c':
+				window.location.href = "creator_v.html";				
+				break;
+			case 'd':
+				window.location.href = "creator_l.html";				
+				break;
 		}																					
 	}
 

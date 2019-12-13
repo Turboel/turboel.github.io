@@ -16,7 +16,7 @@
 
 body{
 	margin: 0vw 0vw 0vw 0vw;
-	background-color: #5E5E5E;
+	background-color: #EAF2F8;
 }
 
 .orange{
@@ -125,15 +125,30 @@ tr{
 	height: 10.5vh;
 	width: 100vw;
 
-	padding: 0 !important;
-	margin: 0 !important;
-	border: 0 !important;
+	padding: 0;
+	margin: 0;
+	border: 0;
 
 	position: absolute;
 
 	top: 160vh;
 }
 .shortFooterUnfixed p{
+	padding: 2vh 0 0 0;
+	margin: 0vh 0 3vh 0;
+}
+
+.shortFooterStatic{
+	height: 10.5vh;
+	width: 100vw;
+
+	padding: 0 !important;
+	margin: 6vh 0 0 0 !important;
+	border: 0 !important;
+
+	position: static;
+}
+.shortFooterStatic p{
 	padding: 2vh 0 0 0;
 	margin: 0vh 0 3vh 0;
 }
@@ -278,7 +293,7 @@ tr{
 
 #userDescription{
 	position: relative;
-	bottom: 6vw;
+	bottom: 5vh;
 }
 
 #userDescription p{
@@ -300,6 +315,7 @@ hr.transparent {
     width: 70%;
     background: #000;
     opacity: 0.5;
+    margin-bottom: 5vh;
 }
 
 .userPost{
@@ -431,3 +447,20 @@ hr.transparent {
 }
 
 /* ------------------------------------------------------------------ */
+
+#paletaJoao{
+	background-color: #F4ECF7;
+}
+#paletaLucas{
+	background-color: #E8F8F5;
+}
+#paletaMaria{
+	background-color: #EAFAF1;
+}
+#paletaVitoria{
+	background-color: #FDEDEC;
+}
+
+#instagramPost{
+
+}
